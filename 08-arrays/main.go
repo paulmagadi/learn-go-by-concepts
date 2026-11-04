@@ -22,4 +22,13 @@ func main() {
 	fmt.Println("Grades:", grades)
 	fmt.Println("First grade:", grades[0])
 	fmt.Println("Length of grades array:", len(grades))
+
+	var books [3]string
+	books[0] = "The Great Gatsby"
+	books[1] = "To Kill a Mockingbird"
+	books[2] = "1984"
+	fmt.Println("Books:", books)
+
+	books[1] = "Pride and Prejudice" // Modifying the second element
+	fmt.Println("Updated Books:", books)
 }
