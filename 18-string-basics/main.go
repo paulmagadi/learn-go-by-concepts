@@ -16,4 +16,10 @@ func main() {
 	age := 30
 	fmt.Println("I am " + fmt.Sprint(age) + " years old.")
 	fmt.Println("I am", age, "years old.")
+
+	// Multiline strings with backtics (``)
+	multiLine := `This is a message
+that spans multiple lines
+and preserves formatting.`
+    fmt.Println(multiLine)
 }
