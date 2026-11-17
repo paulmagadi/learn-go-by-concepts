@@ -43,6 +43,8 @@ func main() {
 	fmt.Println(r.Perimeter())
 }
 
+
+// example with Shape 
 type Shape interface {
 	Area() float64
 }
